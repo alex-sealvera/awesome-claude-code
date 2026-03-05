@@ -239,6 +239,7 @@
 - [Claudio](https://github.com/ctoth/claudio) by [Christopher Toth](https://github.com/ctoth) - A no-frills little library that adds delightful OS-native sounds to Claude Code via simple hooks. It really sparks joy.
 - [Dippy](https://github.com/ldayton/Dippy) by [Lily Dayton](https://github.com/ldayton) - Auto-approve safe bash commands using AST-based parsing, while prompting for destructive operations. Solves permission fatigue without disabling safety. Supports Claude Code, Gemini CLI, and Cursor.
 - [parry](https://github.com/vaporif/parry) by [Dmytro Onypko](https://github.com/vaporif) - Prompt injection scanner for Claude Code hooks. Scans tool inputs and outputs for injection attacks, secrets, and data exfiltration attempts. [NOTE: Early development phase but worth a look.].
+- [sealvera-claude](https://github.com/SealVera/sealvera-claude) by [SealVera](https://github.com/SealVera) — Tamper-evident audit logging for Claude Code sessions via hooks. Run `sealvera-claude init` and it auto-installs a PostToolUse hook into `~/.claude/settings.json`, logging every tool call, bash command, and file write to a signed, hash-chained audit trail. Dashboard at [app.sealvera.com](https://app.sealvera.com). For when you need to know not just what your agent did, but prove it.
 - [TDD Guard](https://github.com/nizos/tdd-guard) by [Nizar Selander](https://github.com/nizos) - A hooks-driven system that monitors file operations in real-time and blocks changes that violate TDD principles.
 - [TypeScript Quality Hooks](https://github.com/bartolli/claude-code-typescript-hooks) by [bartolli](https://github.com/bartolli) - Quality check hook for Node.js TypeScript projects with TypeScript compilation. ESLint auto-fixing, and Prettier formatting. Uses SHA256 config caching for < 5ms validation performance during real-time editing.
 
@@ -402,3 +403,4 @@ This list is licensed under [Creative Commons CC BY-NC-ND 4.0](https://creativec
 
 
 <!-- OBLIGATORY GUARD AGAINST SILLY END-OF-FILE PROBLEM -->
+
